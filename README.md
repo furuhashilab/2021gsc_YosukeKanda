@@ -1,5 +1,5 @@
 # 2021gsc_YosukeKanda
-###2021年度 ゼミ論用レポジトリ
+## 2021年度 ゼミ論用レポジトリ
 
 青山学院大学 地球社会共生学部 地球社会共生学科
 
@@ -21,7 +21,7 @@
 [進捗管理用プロジェクト](https://github.com/furuhashilab/2021gsc_YosukeKanda/projects/1) 
 
 ## 参考文献リスト
-https://docs.google.com/spreadsheets/d/1G2p2ijyUKfr2laqqZTIiqUpl5gTyZ4cM2XD_ILLaLGA/edit?usp=sharing
+
 
 ## 中間発表
 ### medium
