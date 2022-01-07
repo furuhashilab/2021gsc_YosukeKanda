@@ -13,6 +13,17 @@
 
 # 「一都三県空き家率マップ」
 
+# 全体構成（IMRAD形式）
+## Abstract
+
+## Introduction
+
+## Methods
+
+## Discussion
+
+## Conclusion
+
 
 
 ## 資料
