@@ -11,7 +11,7 @@
 
 © Furuhashi Laboratory/Yosuke Kanda, CC BY 4.0
 
-# 「一都三県空き家率マップ」
+# 「一都三県（市区町村別）空き家率マップ」の作成
 
 ## 全体構成（IMRAD形式）
 ### Abstract
