@@ -40,5 +40,9 @@
 ### medium
 [一都三県空き家率マップ（11月16日）](https://docs.google.com/presentation/d/1rdNYrq0WUOnIdI-mxJzm_W961YzSmf_J0hkL1oKQoCM/edit?usp=sharing)
 
+### Qiitaアドベントカレンダー
+[]()
+
+
 ## 謝辞
 本研究を進めるにあたり地球社会共生学部の古橋大地教授をはじめ多くの方々より多大な助言を賜りました。厚く感謝を申し上げます。
