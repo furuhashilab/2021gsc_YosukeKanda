@@ -37,7 +37,7 @@
 
 
 ## 中間発表
-### medium
+### Medium
 [一都三県空き家率マップ（11月16日）](https://docs.google.com/presentation/d/1rdNYrq0WUOnIdI-mxJzm_W961YzSmf_J0hkL1oKQoCM/edit?usp=sharing)
 
 ### Qiitaアドベントカレンダー
