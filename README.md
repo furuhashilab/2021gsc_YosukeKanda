@@ -12,11 +12,10 @@
 © Furuhashi Laboratory/Yosuke Kanda, CC BY 4.0
 
 # 「一都三県（市区町村別）空き家率マップ」の作成
-
-# 全体構成（IMRAD形式）
 # Abstract
 本研究は、一都三県(東京都・神奈川県・千葉県・埼玉県）の市区町村単位の空き家率を総務省統計局の住宅・土地統計調査より個別に算出し、そのデータをもとにしてデジタルマップ上に視覚化したものである。
 
+# 全体構成（IMRAD形式）
 
 # Introduction
 #### 【空き家率マップの作成に取り組んだ経緯と目的】
@@ -127,27 +126,44 @@ e-Stat (政府統計ポータルサイト）から[住宅・土地統計調査](
 
 上記のCSVのデータをGeoJSONに書き換える。その際に境界線データと一緒に書き換えてタイルセットに書き換える。
 
+#### 【結合したデータをMapbox Studioに取り込み】
 
-#### 【マップ＆UIデザイン】
+スタイルはテンプレートから「Basic」を選択して、Componentsは今回のマップの目的に応じて最低限に削った。  
+スタイルURL：[mapbox://styles/cancancanda/ckx5muc1z78db14pgh7sxerq4](url)
+
+#### 【Mapbox Studio上でのUIデザイン】
+
+新しいコンポーネントを追加して、データビジュアライゼーションはコロプレスを選択。各年度の空き家率データに従った塗りつぶしをする。
+
+<img width="686" alt="スクリーンショット 2022-02-04 18 25 17" src="https://user-images.githubusercontent.com/62165727/152504503-4635886d-dc6c-4e84-b54b-e2dd72c53046.png">
+
+* 配色（どのデータ範囲でどの色を表示するのか）
+  * カラーパレット：Arid
+  * データ範囲：以下範囲で区切り
+>10%未満 
+>
+>10%以上15%未満
+>
+>15%以上20%未満
+>
+>20%以上25%未満
+>
+>25%以上
+
+#### 【クリック時の挙動】
 
 完成形の理想とするUIは日経新聞社がMapbox Studio上で作成している「ふるさとクリック」シリーズのフロントデザインだったが、中身を確認すると日経独自のCSSの実装となっていて、これをそのまま参考にすると問題であると判断し実装のレベルを下げて、[Mapbox GL JSのドキュメント](https://docs.mapbox.com/jp/mapbox-gl-js/example/)から実装できそうなやり方を選択してデザインしていく方針にした。
 
+<img width="1512" alt="スクリーンショット 2022-02-04 18 05 00" src="https://user-images.githubusercontent.com/62165727/152501645-a1f9fdfd-be44-4bfa-b5d6-39ee58d511c0.png">
 
+↑「ふるさとクリック」シリーズに共通するフロントUI（クリック時の各都道府県名+市区町村の表示、率とグラフでの推移の表示、都道府県ランキングの表示）
 
+#### 【Mapbox GL JSによる代替案】
 
+当初の目標と比較するとかなり簡易的なデザインにはなるが、クリックの挙動はMapbox GL JS Eaxmpleの[「クリック時にポリゴン情報を表示」](https://docs.mapbox.com/jp/mapbox-gl-js/example/polygon-popup-on-click/)　を参考にして、ポップアップ形式で元データから値を呼び出して表示する形式にした。
+表示内容は市区町村名と都県内での空き家率順位、空き家率  
 
-
-
-
-
-
-
-#### 【クリック時に特定の市区町村の詳細データを表示】
-
-クリックの挙動はMapbox GL JS Eaxmpleの[「クリック時にポリゴン情報を表示」](https://docs.mapbox.com/jp/mapbox-gl-js/example/polygon-popup-on-click/)　を参考にして、ポップアップ形式で元データから値を呼び出した。
-
-
-<img width="1302" alt="スクリーンショット 2022-02-04 17 12 04" src="https://user-images.githubusercontent.com/62165727/152494336-7d44285c-1fd7-465a-8d14-8fc70d7101ad.png">
+<img width="1294" alt="スクリーンショット 2022-02-04 18 13 35" src="https://user-images.githubusercontent.com/62165727/152502819-cce5ef13-95c1-4068-9824-7d88d198fb73.png">
 
 
 
