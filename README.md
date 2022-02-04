@@ -186,8 +186,7 @@ e-Stat (政府統計ポータルサイト）から[住宅・土地統計調査](
 [進捗管理用プロジェクト](https://github.com/furuhashilab/2021gsc_YosukeKanda/projects/1) 
 
 # 参考文献リスト
-https://docs.google.com/document/d/1JvmgYU16OdBb4MhckYtzOR80X1uyE8QwelUOa88r6Wc/edit?usp=sharing
-
+https://docs.google.com/spreadsheets/d/1Oi-3C8sF9Dm7UdtE7R3dkkeM9EjPfSCWvSCnAErdjeQ/edit?usp=sharing
 
 # 中間発表
 ## Medium
