@@ -133,6 +133,9 @@ e-Stat (政府統計ポータルサイト）から[住宅・土地統計調査](
 
 #### 【Mapbox Studio上でのUIデザイン】
 
+<img width="1336" alt="スクリーンショット 2022-02-04 19 22 00" src="https://user-images.githubusercontent.com/62165727/152512650-eee8f2ec-176c-4f44-956e-8c97bea45584.png">
+
+
 新しいコンポーネントを追加して、データビジュアライゼーションはコロプレスを選択。各年度の空き家率データに従った塗りつぶしをする。
 
 <img width="686" alt="スクリーンショット 2022-02-04 18 25 17" src="https://user-images.githubusercontent.com/62165727/152504503-4635886d-dc6c-4e84-b54b-e2dd72c53046.png">
@@ -163,7 +166,8 @@ e-Stat (政府統計ポータルサイト）から[住宅・土地統計調査](
 当初の目標と比較するとかなり簡易的なデザインにはなるが、クリックの挙動はMapbox GL JS Eaxmpleの[「クリック時にポリゴン情報を表示」](https://docs.mapbox.com/jp/mapbox-gl-js/example/polygon-popup-on-click/)　を参考にして、ポップアップ形式で元データから値を呼び出して表示する形式にした。
 表示内容は市区町村名と都県内での空き家率順位、空き家率  
 
-<img width="1294" alt="スクリーンショット 2022-02-04 18 13 35" src="https://user-images.githubusercontent.com/62165727/152502819-cce5ef13-95c1-4068-9824-7d88d198fb73.png">
+<img width="1296" alt="スクリーンショット 2022-02-04 19 18 02" src="https://user-images.githubusercontent.com/62165727/152512119-295e25e0-cc81-4247-b939-5bcaa8d78189.png">
+
 
 
 
