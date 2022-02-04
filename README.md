@@ -196,6 +196,19 @@ e-Stat (政府統計ポータルサイト）から[住宅・土地統計調査](
 # 参考文献リスト
 https://docs.google.com/spreadsheets/d/1Oi-3C8sF9Dm7UdtE7R3dkkeM9EjPfSCWvSCnAErdjeQ/edit?usp=sharing
 
+# 先行事例
+* ふるさとクリック　地図で見る人口  
+https://vdata.nikkei.com/newsgraphics/regional-regeneration/population-map/#18483  
+* 空き家率 1都3県の15年間の変化が分かる地図アニメ - マンション・チラシの定点観測  
+https://1manken.hatenablog.com/entry/2015/03/05/053000  
+* 空き家率の要因分析と将来統計　金森 有子, 有賀 敏典, 松橋 啓介  
+https://www.jstage.jst.go.jp/article/journalcpij/50/3/50_1017/_pdf/-char/ja  
+* 総務省　住宅・土地統計調査  
+https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522  
+* データえっせい　首都圏の空き家率地図（2013年）  
+http://tmaita77.blogspot.com/2015/03/2013_10.html
+
+
 # 中間発表
 ## Medium
 [一都三県空き家率マップ（11月16日）](https://docs.google.com/presentation/d/1rdNYrq0WUOnIdI-mxJzm_W961YzSmf_J0hkL1oKQoCM/edit?usp=sharing)
