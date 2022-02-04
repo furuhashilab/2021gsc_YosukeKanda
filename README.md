@@ -103,7 +103,7 @@
   * 表示
     コロプレスによる塗りつぶし
 
-# Result and Discussion
+# Result
 
 #### 【データ成形】
 
@@ -168,8 +168,7 @@ e-Stat (政府統計ポータルサイト）から[住宅・土地統計調査](
 
 <img width="1296" alt="スクリーンショット 2022-02-04 19 18 02" src="https://user-images.githubusercontent.com/62165727/152512119-295e25e0-cc81-4247-b939-5bcaa8d78189.png">
 
-
-
+# Discussion
 
 最終的にwebページとして実装を完了するまで至ることはできなかったが、必要最低限の実装を
 
